@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(blue,rgb(211, 206, 206));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+form{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    background-color: rgb(84, 87, 87);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.8rem 0.8rem rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.mail{
+    font-size: 1.7rem;
+    color: white;
+}
+.form-group input{
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    
+}
+.form-group input:hover{
+    font-size: 1.37rem;
+    
+}
+::placeholder{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+p{
+    color: lightgrey;
+    font-size: 1rem;
+}
+form .btn{
+    transition: 0.4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 90%;
+    left: 42%;
+    transform: translateY(-42%);
+}
+
+form .btn:hover{
+    font-size: 1.12rem;
+    transition: 0.4s ease-in-out;
+}
+.navbar{
+    overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+  }
