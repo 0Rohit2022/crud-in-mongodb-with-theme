@@ -17,6 +17,7 @@
     "mongodb": "^4.10.0",
     "mongoose": "^6.6.5",
     "nodmeon": "^0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "validator": "^13.7.0"
   }
 }
